@@ -1,0 +1,63 @@
+body{
+	
+
+background-image:url("../img/signbg.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:cover;
+}
+input[type="email"],input[type="password"],input[type="text"],input[type="date"]{
+	width:400px;	
+}
+img{
+	margin:10px;
+}
+input[type="date"]{
+	border-radius:5px;
+	height:40px;
+}
+input[type="date"]:active{
+     border:2px solid #207cca;
+	border-radius:5px;
+	height:40px;
+	 }
+.container{
+	width:550px;
+	height:470px;
+	padding:50px;
+	margin-left:130px;
+	box-shadow:10px 10px 5px rgba(0, 0, 0, .5);
+}
+label{
+	color:white;
+	font-family:cursive;
+	font-size:20px;
+}
+button[type="submit"]{
+	width:250px;
+	margin-left:100px;
+	background-color:#1a75ff;
+	color:white;
+	box-shadow:2px 2px 1px black;
+}
+.modal{
+	box-shadow:2px 2px 1px black;
+	width:450px;
+	margin:auto;
+}
+.modal-body{
+background-image:url("../img/signbg.jpg");
+background-repeat:norepeat;
+background-size:auto;
+padding:10px;
+}
+button[type="submit"]:hover{
+	box-shadow:5px 5px 2px black;
+	background-color:#0052cc;
+}
+h1{
+	
+	color:white;
+	font-family:cursive;
+	text-align:center;
+}
